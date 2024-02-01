@@ -30,11 +30,17 @@ This is a "Hello World"-style Spock test suite.
 
 See the README in [basic/](basic/).
 
+### `mocking/`
+
+A runnable example of mocking in Spock.
+
+See the README in [mocking/](mocking/).
+
 
 ## Wish List
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
 * [x] DONE Implement a basic Spock test suite showcasing assertions, maybe unrolling, and basic mocking.
-* [ ] Show a mocking-focused test suite showing more circuitous mocking and stubbing, which requires a byte code rewriting
+* [x] DONE Show a mocking-focused test suite showing more circuitous mocking and stubbing, which requires a byte code rewriting
   tool like ByteBuddy.

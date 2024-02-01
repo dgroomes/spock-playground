@@ -1,0 +1,12 @@
+[versions]
+groovy = "4.0.18" # Groovy releases: https://github.com/apache/groovy/tags
+spock = "2.3-groovy-4.0" # Spock releases: https://github.com/spockframework/spock/releases
+byte-buddy = "1.14.11" # Byte Buddy releases: https://github.com/raphw/byte-buddy/releases
+
+
+[libraries]
+groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "groovy" }
+groovy = { module = "org.apache.groovy:groovy" }
+spock-bom = { module = "org.spockframework:spock-bom", version.ref = "spock" }
+spock-core = { module = "org.spockframework:spock-core" }
+byte-buddy = { module = "net.bytebuddy:byte-buddy", version.ref = "byte-buddy" }
