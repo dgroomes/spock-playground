@@ -1,0 +1,16 @@
+[versions]
+# Groovy releases are not cohesively described. You might consider visiting each of these pages:
+#   - https://github.com/apache/groovy/tags
+#   - https://groovy-lang.org/releases.html
+groovy = "4.0.18"
+
+# Spock releases: https://github.com/spockframework/spock/releases
+# Make sure to match the version of Spock with the version of Groovy
+spock = "2.3-groovy-4.0"
+
+
+[libraries]
+groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "groovy" }
+groovy = { module = "org.apache.groovy:groovy" }
+spock-bom = { module = "org.spockframework:spock-bom", version.ref = "spock" }
+spock-core = { module = "org.spockframework:spock-core" }
